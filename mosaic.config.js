@@ -14,7 +14,7 @@ module.exports = deepmerge(mosaicConfig, {
         modulePath: '@jpmorganchase/mosaic-source-git-repo',
         namespace: 'mosaic',
         options: {
-            credentials: 'mark-tate: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',
+            credentials: process.env.MOSAIC_DOCS_CLONE_CREDENTIALS,
             prefixDir: 'mosaic',
             cache: true,
             subfolder: 'docs',
