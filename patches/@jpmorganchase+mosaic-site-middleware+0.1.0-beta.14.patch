@@ -33,10 +33,10 @@ index 54955ae..0065b81 100644
  };
  //# sourceMappingURL=withMosaicMode.js.map
 diff --git a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
-index 2fe6f0f..552cc7d 100644
+index 2fe6f0f..5f359c3 100644
 --- a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
 +++ b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
-@@ -8,13 +8,21 @@ import MiddlewareError from './MiddlewareError.js';
+@@ -8,13 +8,17 @@ import MiddlewareError from './MiddlewareError.js';
   */
  export const withStaticContent = async (context) => {
      const { resolvedUrl, res } = context;
@@ -50,15 +50,17 @@ index 2fe6f0f..552cc7d 100644
      // Find the absolute path for  the file/dir requested
      const filePath = path.posix.join(process.cwd(), mosaicSnapshotDir, resolvedUrl);
 +    console.log('>> filePath', filePath);
-+
-+    fs.readdirSync(filePath).forEach(file => {
-+        console.log('>> ', file);
-+    });
-+
++    
      try {
          const realPath = await fs.promises.realpath(filePath);
          const extname = path.extname(realPath);
-@@ -26,6 +34,7 @@ export const withStaticContent = async (context) => {
+@@ -22,10 +26,13 @@ export const withStaticContent = async (context) => {
+             const data = await fs.promises.readFile(filePath, 'utf-8');
+             const text = data.toString();
+             const mdxSource = await compileMDX(text);
++            console.log('>> text', text);
++
+             return { props: { type: 'mdx', source: mdxSource, raw: text } };
          }
      }
      catch (error) {
