@@ -1,3 +1,5 @@
 .tmp
 .next
 node_modules
+*.iml
+.idea
