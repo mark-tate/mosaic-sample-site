@@ -45,7 +45,8 @@ module.exports = {
     }
     return config;
   },
-  env: {},
+  env: {}
+/*
   async redirects() {
     return [
       {
@@ -65,4 +66,5 @@ module.exports = {
       }
     ];
   }
+*/
 };
