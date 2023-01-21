@@ -1,3 +1,36 @@
+diff --git a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withContent.js b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withContent.js
+index d68a306..757d3cf 100644
+--- a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withContent.js
++++ b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withContent.js
+@@ -8,13 +8,16 @@ if (typeof window !== 'undefined') {
+  * @param context
+  */
+ export const withContent = async (context) => {
++    console.log('>> withContent mode', context.res.getHeader('X-Mosaic-Mode'));
+     if (context.res.getHeader('X-Mosaic-Mode') !== 'active') {
+         return {};
+     }
+     const { resolvedUrl } = context;
+     try {
+         const mosaicUrl = context.res.getHeader('X-Mosaic-Content-Url');
++        console.log('>> withContent mosaicUrl', mosaicUrl);
+         const req = await fetch(`${mosaicUrl}${resolvedUrl}`);
++        console.log('>> fetch ', `${mosaicUrl}${resolvedUrl}`);
+         if (req.ok) {
+             const contentType = req.headers.get('content-type');
+             if (contentType && contentType.includes('/mdx')) {
+diff --git a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withMosaicMode.js b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withMosaicMode.js
+index 54955ae..0065b81 100644
+--- a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withMosaicMode.js
++++ b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withMosaicMode.js
+@@ -10,6 +10,7 @@ export const withMosaicMode = async (context) => {
+     const mosaicContentUrl = process.env[`MOSAIC_${mode.toUpperCase()}_MODE_URL`] || '';
+     context.res.setHeader('X-Mosaic-Mode', mode);
+     context.res.setHeader('X-Mosaic-Content-Url', mosaicContentUrl);
++    console.log('>> withMosaicMode', mode, mosaicContentUrl)
+     return { props: { mode } };
+ };
+ //# sourceMappingURL=withMosaicMode.js.map
 diff --git a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
 index 2fe6f0f..a8b930f 100644
 --- a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
