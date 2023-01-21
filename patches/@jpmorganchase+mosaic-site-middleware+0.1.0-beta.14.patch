@@ -1,0 +1,29 @@
+diff --git a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
+index 2fe6f0f..a8b930f 100644
+--- a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
++++ b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
+@@ -8,13 +8,16 @@ import MiddlewareError from './MiddlewareError.js';
+  */
+ export const withStaticContent = async (context) => {
+     const { resolvedUrl, res } = context;
++    console.log('>> resolvedURL', resolvedUrl);
+     const isStatic = res.getHeader('X-Mosaic-Mode') === 'static';
++    console.log('>> isStatic', isStatic);
+     if (!isStatic) {
+         return {};
+     }
+     const mosaicSnapshotDir = process.env.MOSAIC_SNAPSHOT_DIR || '';
+     // Find the absolute path for  the file/dir requested
+     const filePath = path.posix.join(process.cwd(), mosaicSnapshotDir, resolvedUrl);
++    console.log('>> filePath', filePath);
+     try {
+         const realPath = await fs.promises.realpath(filePath);
+         const extname = path.extname(realPath);
+@@ -26,6 +29,7 @@ export const withStaticContent = async (context) => {
+         }
+     }
+     catch (error) {
++        console.log('>> thrown in middleware', error);
+         if (error instanceof Error) {
+             console.error(error.message);
+             throw new MiddlewareError(500, resolvedUrl, [error.message], { show500: true });
