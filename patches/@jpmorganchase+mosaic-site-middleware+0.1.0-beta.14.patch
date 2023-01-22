@@ -33,7 +33,7 @@ index 54955ae..0065b81 100644
  };
  //# sourceMappingURL=withMosaicMode.js.map
 diff --git a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
-index 2fe6f0f..c24471c 100644
+index 2fe6f0f..49a8a00 100644
 --- a/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
 +++ b/node_modules/@jpmorganchase/mosaic-site-middleware/dist/withStaticContent.js
 @@ -8,13 +8,18 @@ import MiddlewareError from './MiddlewareError.js';
@@ -47,7 +47,7 @@ index 2fe6f0f..c24471c 100644
          return {};
      }
      const mosaicSnapshotDir = process.env.MOSAIC_SNAPSHOT_DIR || '';
-+    console.log('>> process.cwd()', procsess.cwd());
++    console.log('>> process.cwd()', process.cwd());
 +    
      // Find the absolute path for  the file/dir requested
      const filePath = path.posix.join(process.cwd(), mosaicSnapshotDir, resolvedUrl);
