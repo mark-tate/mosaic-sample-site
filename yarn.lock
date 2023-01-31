@@ -1177,12 +1177,12 @@
   dependencies:
     "@swc/helpers" "^0.4.14"
 
-"@jpmorganchase/mosaic-cli@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-cli/-/mosaic-cli-0.1.0-beta.15.tgz#9eb499f759318f9281b215fd5009f69c89a54960"
-  integrity sha512-u8uSzl6glPqoAepX+fBvTT5csgUy+TnnGO9ERkWdC+svgZXAr79wiNGX63Gyi+6cCmXdNUr0e5gIqBFklrNNNA==
+"@jpmorganchase/mosaic-cli@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-cli/-/mosaic-cli-0.1.0-beta.17.tgz#6399e371755eb41fde61fbf5ad48c1f1c154fa7e"
+  integrity sha512-SN8xrow+w1hOTCeakO3pvMMrHm0NZsxVASQK5GZW4wVlMe+z6y5pggaWlZCHfPDvQ+kNtw0RxOY+xMNUIkxe7Q==
   dependencies:
-    "@jpmorganchase/mosaic-core" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-core" "^0.1.0-beta.17"
     commander "^9.4.1"
     cors "^2.8.5"
     express "^4.18.2"
@@ -1190,13 +1190,13 @@
     globby "^13.1.3"
     mkdirp "^1.0.4"
 
-"@jpmorganchase/mosaic-components@0.1.0-beta.15", "@jpmorganchase/mosaic-components@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-components/-/mosaic-components-0.1.0-beta.15.tgz#c3d23238cbf0645d7c6677ee6bb5ac500b9f1ff2"
-  integrity sha512-jiC0pT4u21pvD6CRUWRhnawOqB0YWv+rSEW3ZuQvQaSnLYyEIMVwVMUC3tDqe59cDTzvQQedLEI0PQ5WkRe/iw==
+"@jpmorganchase/mosaic-components@0.1.0-beta.17", "@jpmorganchase/mosaic-components@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-components/-/mosaic-components-0.1.0-beta.17.tgz#a9e43045b840ff8bbb16e065a49b261d4415e943"
+  integrity sha512-nZSQcXf/EHkP/jYiV2db50dZZgY+LDsuXhTOQGi7pO04NwofnFgp1elk4dG427TcEI4MfUHQFn1ZQ9GNzCCE1g==
   dependencies:
-    "@jpmorganchase/mosaic-store" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-store" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.17"
     "@salt-ds/core" "^1.0.0"
     "@salt-ds/lab" "^1.0.0-alpha.0"
     "@vanilla-extract/css" "^1.6.0"
@@ -1216,13 +1216,13 @@
     use-memo-one "^1.1.1"
     warning "^3.0.0"
 
-"@jpmorganchase/mosaic-content-editor-plugin@0.1.0-beta.15", "@jpmorganchase/mosaic-content-editor-plugin@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-content-editor-plugin/-/mosaic-content-editor-plugin-0.1.0-beta.15.tgz#98c33b4ef745d31542330a60d60b1d7623969b5d"
-  integrity sha512-KcWX/VOChMPlfPFnIYCqUcCEHO0mBu3zPobe4akeRrMFjAZgXlJlmZzfu9wHZIWi7aNnE6G3KN260GZ8Urfy1w==
+"@jpmorganchase/mosaic-content-editor-plugin@0.1.0-beta.17", "@jpmorganchase/mosaic-content-editor-plugin@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-content-editor-plugin/-/mosaic-content-editor-plugin-0.1.0-beta.17.tgz#20bf4d9fc3618bb239b46c68ea23358a989e9ad3"
+  integrity sha512-apsAFbOfuZbeaDSA1Y0s/BS1+yChFgZ8axmUwMjwJ2nQrijCY7DKvFkQF55FpHZc5xtqo/nk9IxLw4HedUrKDg==
   dependencies:
-    "@jpmorganchase/mosaic-components" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-components" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.17"
     "@lexical/code" "0.5.0"
     "@lexical/link" "0.5.0"
     "@lexical/list" "0.5.0"
@@ -1245,13 +1245,13 @@
     yup "^0.32.9"
     zustand "^4.1.1"
 
-"@jpmorganchase/mosaic-core@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-core/-/mosaic-core-0.1.0-beta.15.tgz#a26026526ad34bb3d75898934e02575ea9477dec"
-  integrity sha512-k1nEiwZHyk6VuckQtb9xwj252JYYzduJlAlqnLMeMNbkBoMSHhI/gEH35keZ48vIfKUyeQs9VL1gH+0LT2zRNQ==
+"@jpmorganchase/mosaic-core@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-core/-/mosaic-core-0.1.0-beta.17.tgz#395e10a9e9f257d385d995b26dd487f0336f8d69"
+  integrity sha512-2MKAUnD6jB9l75rmA+nYKaL/usvZJisTw1Bm2HYFuNbHdSXWr82cfLm5pg15/9Jr2OCEENHVNWJtXHUebEr03A==
   dependencies:
-    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-types" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-types" "^0.1.0-beta.17"
     fast-glob "*"
     gray-matter "^4.0.3"
     lodash-es "^4.17.21"
@@ -1260,13 +1260,13 @@
     rxjs "^7.5.5"
     unionfs "^4.4.0"
 
-"@jpmorganchase/mosaic-labs-components@0.1.0-beta.15", "@jpmorganchase/mosaic-labs-components@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-labs-components/-/mosaic-labs-components-0.1.0-beta.15.tgz#b3fdbc9a5f6fb4b48dc156194bee0a6bdc4fb967"
-  integrity sha512-RVj2gLMN5o276j6JRFT35fFW+FemAHvuhHGf2q71WjtXAxOCOXWAi2SyPVOyf47SlhNHHLzffutBAEYk/XzEmQ==
+"@jpmorganchase/mosaic-labs-components@0.1.0-beta.17", "@jpmorganchase/mosaic-labs-components@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-labs-components/-/mosaic-labs-components-0.1.0-beta.17.tgz#74ea9153592ed8651b4ab8a07863d5ade8d7dd61"
+  integrity sha512-rrg+2+0cXALrh7B7J2sz7nrdhCYo+HpOjBCvY2kyTtTKykFGSj+Lr6I9Bkhxn3/vCXS7/NNtDuBau2pZEKv0AA==
   dependencies:
-    "@jpmorganchase/mosaic-components" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-components" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.17"
     "@salt-ds/core" "^1.0.0"
     "@salt-ds/lab" "^1.0.0-alpha.0"
     "@vanilla-extract/css" "^1.6.0"
@@ -1278,16 +1278,16 @@
     mermaid "9.3.0"
     warning "^3.0.0"
 
-"@jpmorganchase/mosaic-layouts@0.1.0-beta.15", "@jpmorganchase/mosaic-layouts@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-layouts/-/mosaic-layouts-0.1.0-beta.15.tgz#f863defce429730e55a22c86f79b1ca0769108a3"
-  integrity sha512-BFa1cjRGnHQiYMuHDkpUXwATMJ6WnwXcSJwq5W8c2T3ABJw3oETfJjPHoRH6BoX87RnK0LJR+a3r4Rdhstq5yw==
+"@jpmorganchase/mosaic-layouts@0.1.0-beta.17", "@jpmorganchase/mosaic-layouts@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-layouts/-/mosaic-layouts-0.1.0-beta.17.tgz#fe463724c687ede9da87353773369f9af58b9b09"
+  integrity sha512-LAGTmgzv8SKPI77RvMTqzN9mxEHH093qguhMgzy/XdVZny5n9kSa+1rm438Liq6GNUoUqsuqisPVKf8Y5FlI+A==
   dependencies:
-    "@jpmorganchase/mosaic-components" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-content-editor-plugin" "0.1.0-beta.15"
-    "@jpmorganchase/mosaic-site-components" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-store" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-components" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-content-editor-plugin" "0.1.0-beta.17"
+    "@jpmorganchase/mosaic-site-components" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-store" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.17"
     "@salt-ds/lab" "^1.0.0-alpha.0"
     "@vanilla-extract/css" "^1.6.0"
     classnames "^2.2.6"
@@ -1295,13 +1295,13 @@
     next "^13.1.1"
     react-transition-group "^4.4.5"
 
-"@jpmorganchase/mosaic-open-api-component@0.1.0-beta.15", "@jpmorganchase/mosaic-open-api-component@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-open-api-component/-/mosaic-open-api-component-0.1.0-beta.15.tgz#54b8a449fe3d53ac45b0d5949a56a8f8a85bd422"
-  integrity sha512-o7ylxO/GQ9VdPhcA8pZwqwaS3ADFG6zOFKQMavOGkCv5SUMM0jb1pj7HN9Xl73HIoRILD9/nzS3OgyWeINl5kA==
+"@jpmorganchase/mosaic-open-api-component@0.1.0-beta.17", "@jpmorganchase/mosaic-open-api-component@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-open-api-component/-/mosaic-open-api-component-0.1.0-beta.17.tgz#ec3d98c6fc222a61c384476b3cb33ed49ae26b8b"
+  integrity sha512-YJlBIfwBy/G9ESXi0CCqNUu/xvKO0PPYgMWjtUfyFXMISQwWwr7jJN88xfsnTXakuMETFLGGiDPJLt5q46Y1YA==
   dependencies:
-    "@jpmorganchase/mosaic-components" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-components" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.17"
     "@types/swagger-ui-react" "^4.11.0"
     "@vanilla-extract/css" "^1.6.0"
     "@vanilla-extract/recipes" "^0.2.1"
@@ -1316,17 +1316,17 @@
     use-memo-one "^1.1.1"
     warning "^3.0.0"
 
-"@jpmorganchase/mosaic-plugins@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-plugins/-/mosaic-plugins-0.1.0-beta.15.tgz#a602b3385ac11d5993162664ee19bc982487f4f9"
-  integrity sha512-53RymYWOMyG5A0xbhYqLXm7BgT13MZ+rxDDHxtH2Z7gx6U2SIsJjXUt0m/tJYHg9knCv3xmF/oDMXZL4fUc8+g==
+"@jpmorganchase/mosaic-plugins@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-plugins/-/mosaic-plugins-0.1.0-beta.17.tgz#522283d569f1d684811dc3c52a4aa9abc39cc025"
+  integrity sha512-0LovYhyvDuJVOdLYvA1KkjNP/10ps1qKPuMx3HqIETwc9XaUD60IUgZIvB48V4LepCWicSWBHU4415ikuLM63g==
   dependencies:
     "@apidevtools/json-schema-ref-parser" "^9.0.9"
-    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-serialisers" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-source-git-repo" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-source-local-folder" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-types" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-serialisers" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-source-git-repo" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-source-local-folder" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-types" "^0.1.0-beta.17"
     "@types/github-slugger" "^1.3.0"
     "@vcarl/remark-headings" "^0.1.0"
     fs-extra "^10.1.0"
@@ -1342,33 +1342,33 @@
     unist-util-visit "^4.1.1"
     uuid "^7.0.3"
 
-"@jpmorganchase/mosaic-schemas@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-schemas/-/mosaic-schemas-0.1.0-beta.15.tgz#4b5cbcfac911236d1edbff79c08a94d9d4b6443e"
-  integrity sha512-MnBiHnNcywEEHm3adb2bCkiywCICrUa0Do+iv4Gp69RScD+zYetOvQMp4xDAwI2ynQ0FLJf643y3gtLF4dSSXA==
+"@jpmorganchase/mosaic-schemas@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-schemas/-/mosaic-schemas-0.1.0-beta.17.tgz#7e491af493bbb82a3696c7ada03c91e7c6e86f4d"
+  integrity sha512-LFOXqbeAH7Cg4ZSlm12gOkgecX5VFBC30TZtl6QkEozCGFywReafSDFCxrrjDPL/Lshrus9Qj3Z/8oi310ttng==
   dependencies:
     zod "^3.19.1"
 
-"@jpmorganchase/mosaic-serialisers@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-serialisers/-/mosaic-serialisers-0.1.0-beta.15.tgz#72692d93e6620b1a1cb3682f7a610c00acdf5deb"
-  integrity sha512-1Cov7dSRTbcZTMWhuylTVsOW56hB1YzQmIHqjKF3yLbottpuuzNfLf3avz7e8tTaIW7oLmjpzF7Xup1aUwVLzA==
+"@jpmorganchase/mosaic-serialisers@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-serialisers/-/mosaic-serialisers-0.1.0-beta.17.tgz#ac9ec6eaedb77b1dc8ec30272a9be697413fd90e"
+  integrity sha512-HAZKzBl5CWie+ARhc04rGNPUNQ7bjLLTmX1ZGWf4fl0DjzotSeMiCDdgjeeDk4TB3eQXL2U/kkXWpXRB1h223w==
   dependencies:
-    "@jpmorganchase/mosaic-types" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-types" "^0.1.0-beta.17"
     gray-matter "^4.0.3"
 
-"@jpmorganchase/mosaic-site-components@0.1.0-beta.15", "@jpmorganchase/mosaic-site-components@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-site-components/-/mosaic-site-components-0.1.0-beta.15.tgz#b3f99ec25466aa56285cc32d73db0e2d6e430242"
-  integrity sha512-rUHgxeI+FhMKUsmW7FzVfEjAxlM0AlaU081hzzhvfb9SwACONstYJ+BveMrK0JXxWNNr7fujRk73w8ykju4Ceg==
+"@jpmorganchase/mosaic-site-components@0.1.0-beta.17", "@jpmorganchase/mosaic-site-components@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-site-components/-/mosaic-site-components-0.1.0-beta.17.tgz#99ac8513c7be49ef2c17e6a9a62346624c2a9a47"
+  integrity sha512-ZhN5kgO5V263Q10pDbKMtOnVemsH4WexMMn7gbmfSUEaj7XiFzNDGxok0wvhqxjTCbpJYyF0PqEcykvMxIecsQ==
   dependencies:
-    "@jpmorganchase/mosaic-components" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-content-editor-plugin" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-labs-components" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-open-api-component" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-site-middleware" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-store" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-components" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-content-editor-plugin" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-labs-components" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-open-api-component" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-site-middleware" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-store" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-theme" "^0.1.0-beta.17"
     "@salt-ds/lab" "^1.0.0-alpha.0"
     "@types/mdast" "^3.0.0"
     "@vanilla-extract/css" "^1.6.0"
@@ -1390,15 +1390,15 @@
     unist-util-visit "^2.0.0"
     warning "^3.0.0"
 
-"@jpmorganchase/mosaic-site-middleware@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-site-middleware/-/mosaic-site-middleware-0.1.0-beta.15.tgz#a7c8639f6416d9017d8ea15c45ed6ee496f7ac3a"
-  integrity sha512-oPNsBiJdUMjWAwGk/79eaeANUtE3I1ILoelfErvhByAIBcXWDwqe5zh07Xj5FYzrDc2kAMSoOZiAa80bOLT93g==
+"@jpmorganchase/mosaic-site-middleware@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-site-middleware/-/mosaic-site-middleware-0.1.0-beta.17.tgz#af7d19d4b036fa9cf44ddc1f66a7169db4b3d5d0"
+  integrity sha512-X/PCL5e/ZnRWTZAaseu4H7I1nbrAfa840iEVQcTf7APlG9o5sVnxyBsBmkXcpRGdWSGiI7Hl5d+zH22lMH9++Q==
   dependencies:
     "@aws-sdk/client-s3" "^3.256.0"
-    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-store" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-types" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-store" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-types" "^0.1.0-beta.17"
     "@types/mdast" "^3.0.0"
     acorn "^8.0.0"
     acorn-jsx "^5.0.0"
@@ -1415,66 +1415,66 @@
     unist-util-visit "^2.0.0"
     warning "^3.0.0"
 
-"@jpmorganchase/mosaic-site-preset-styles@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-site-preset-styles/-/mosaic-site-preset-styles-0.1.0-beta.15.tgz#0cf638b787887dbc978f1ea5dd743390b29dd20a"
-  integrity sha512-UTmdUURbQSshVcJ3IdtGI+Kz7ecGXN0NT/wSyqObY1tCbh8sGV/ed+6h8LC/blfFo7Wa9FJpSqGSy2PUHXnR2A==
+"@jpmorganchase/mosaic-site-preset-styles@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-site-preset-styles/-/mosaic-site-preset-styles-0.1.0-beta.17.tgz#0b2fc8d40989349a5c2868cb033d4dcae13d70f0"
+  integrity sha512-1JUStYyBNLhApQa48+VrGeqCAEq1B4hGUtyOOS++TXAJIezbulvx23QXsv0ka4ydaPXdzjEuNztqSYf0tBTXzw==
   dependencies:
-    "@jpmorganchase/mosaic-components" "0.1.0-beta.15"
-    "@jpmorganchase/mosaic-content-editor-plugin" "0.1.0-beta.15"
-    "@jpmorganchase/mosaic-labs-components" "0.1.0-beta.15"
-    "@jpmorganchase/mosaic-layouts" "0.1.0-beta.15"
-    "@jpmorganchase/mosaic-open-api-component" "0.1.0-beta.15"
-    "@jpmorganchase/mosaic-site-components" "0.1.0-beta.15"
-    "@jpmorganchase/mosaic-theme" "0.1.0-beta.15"
+    "@jpmorganchase/mosaic-components" "0.1.0-beta.17"
+    "@jpmorganchase/mosaic-content-editor-plugin" "0.1.0-beta.17"
+    "@jpmorganchase/mosaic-labs-components" "0.1.0-beta.17"
+    "@jpmorganchase/mosaic-layouts" "0.1.0-beta.17"
+    "@jpmorganchase/mosaic-open-api-component" "0.1.0-beta.17"
+    "@jpmorganchase/mosaic-site-components" "0.1.0-beta.17"
+    "@jpmorganchase/mosaic-theme" "0.1.0-beta.17"
     "@salt-ds/icons" "^1.0.0"
     "@salt-ds/theme" "^1.0.0"
     prismjs "^1.23.0"
 
-"@jpmorganchase/mosaic-source-git-repo@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-source-git-repo/-/mosaic-source-git-repo-0.1.0-beta.15.tgz#c4dd71d3ac16c70f87cbdd522de5d62fa6a16771"
-  integrity sha512-XXbwFkeIPpce8iPjv/Hqr85Sw4BDiL3MY1QjvM/ks/xSdlx8OgZtE6vmffqrAGIgIF4P8IC8UadQvEX2ii2gcw==
+"@jpmorganchase/mosaic-source-git-repo@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-source-git-repo/-/mosaic-source-git-repo-0.1.0-beta.17.tgz#28cbd5a253daa08d6d3152f28d32afd04a8d1b7b"
+  integrity sha512-bZddFi2Gauzp3fZK/OczaPFoE9DwSqEv6GtLNLzFZMy0u5rZD8wq7bCpf0d1NyTOmQZcaZiFdxBRUd5KR3USmg==
   dependencies:
-    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-source-local-folder" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-types" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-source-local-folder" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-types" "^0.1.0-beta.17"
     deepmerge "^4.2.2"
     fs-extra "^9.1.0"
     lodash-es "^4.17.21"
     rxjs "^7.5.5"
     zod "^3.19.1"
 
-"@jpmorganchase/mosaic-source-local-folder@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-source-local-folder/-/mosaic-source-local-folder-0.1.0-beta.15.tgz#3a5684155f99754ae1bde3e7de893c969ff5bd17"
-  integrity sha512-h3VkvX7ZaGh4fGaKw2/sN0V1uNGQBXYTV/MQ+T/cdX3s7xBnq5MGdiSW4FSkfZDdNN2sKLLprOcQjGjDD3pFVQ==
+"@jpmorganchase/mosaic-source-local-folder@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-source-local-folder/-/mosaic-source-local-folder-0.1.0-beta.17.tgz#109cefb368c087213543fe66aeef290988d9bd2b"
+  integrity sha512-OnV4DY/wQwRtXrQdlSwW3u5m+/AWG37ryiwTdj+SuMARDYBlabZVWF443ZetK4ePauKS8HL68NvkbDFQ4XFNFg==
   dependencies:
-    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.15"
-    "@jpmorganchase/mosaic-types" "^0.1.0-beta.15"
+    "@jpmorganchase/mosaic-schemas" "^0.1.0-beta.17"
+    "@jpmorganchase/mosaic-types" "^0.1.0-beta.17"
     chokidar "^3.5.3"
     fast-glob "^3.2.12"
     lodash-es "^4.17.21"
     rxjs "^7.5.5"
     zod "^3.19.1"
 
-"@jpmorganchase/mosaic-standard-generator@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-standard-generator/-/mosaic-standard-generator-0.1.0-beta.15.tgz#19a079cde969331413e8cfe7e3e9524286dec0f6"
-  integrity sha512-3323jPEJ84dQzW1OPfT/HClJSxfDWfcKxnTgkL0NyjW81HFKilKsNVz7sXHL2iVmoOy2EL4eiFWAfPsEKUEG7Q==
+"@jpmorganchase/mosaic-standard-generator@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-standard-generator/-/mosaic-standard-generator-0.1.0-beta.17.tgz#5dd2535ce414b4ff20dc38864cb785561e9fac1c"
+  integrity sha512-BS/JfesfbjXkZ9wjgPlAigCqKOZvrQ1QnzQcwn0+89qI0TrCJKAopYYjIrkkiCCE+P2rtib8QOFjFjwXXqDGjA==
 
-"@jpmorganchase/mosaic-store@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-store/-/mosaic-store-0.1.0-beta.15.tgz#a90e0b281bdfef51007b516f55c5719c344aeef6"
-  integrity sha512-a20qztA+FAZpRNGrNi8QgGku29G8OwPaqj+7/zW7IwtqujUlJ66z+RMyffcKyyT6eQDJuU1J4/2naW7MORpEzg==
+"@jpmorganchase/mosaic-store@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-store/-/mosaic-store-0.1.0-beta.17.tgz#279178fba9562de209f6bcb379564aae75d855de"
+  integrity sha512-iHerriYxgW9CFOLSOmYTTr9Zy+OA+iuulgHB0l4+Nn9ctsM2tfrFbyi88Mqg9v+teGnF9NR3Wwkh0GqAtSocrQ==
   dependencies:
     "@testing-library/react" "^13.4.0"
     zustand "^4.1.1"
 
-"@jpmorganchase/mosaic-theme@0.1.0-beta.15", "@jpmorganchase/mosaic-theme@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-theme/-/mosaic-theme-0.1.0-beta.15.tgz#3a1169a408ea1fe15bf46ff9871bb3a99d583ca0"
-  integrity sha512-xdhrRwDVNBzFeJzxHuXxOwfC1Q3JXDX3TYGJ1q2aBQTvb7ON3wcrDnUzpOAjpKihu8d0SazD9ErUP8JNYxz/pg==
+"@jpmorganchase/mosaic-theme@0.1.0-beta.17", "@jpmorganchase/mosaic-theme@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-theme/-/mosaic-theme-0.1.0-beta.17.tgz#c1ae2273a07700b42023659bc47800658958a55d"
+  integrity sha512-oHOXjHm2aQx3PKks3mT168r4llCU/7kL9d21hHbaA9E/2W2ppKBWaFm5sczduwBsBapLKbp3DrO2Ey/QnI3rYQ==
   dependencies:
     "@salt-ds/icons" "^1.0.0"
     "@vanilla-extract/css" "^1.6.0"
@@ -1483,10 +1483,10 @@
     "@vanilla-extract/sprinkles" "^1.3.0"
     fast-deep-equal "^3.1.3"
 
-"@jpmorganchase/mosaic-types@^0.1.0-beta.15":
-  version "0.1.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-types/-/mosaic-types-0.1.0-beta.15.tgz#60018150f7d97448457185dd09480b31ba2a229d"
-  integrity sha512-AItj/k8vclK8mx58byENBP+DgfoSAWpaYcNvn8fgj454uFln549atA3QFYlmiYA5AATJYYF+N8WmxWmyOERFSA==
+"@jpmorganchase/mosaic-types@^0.1.0-beta.17":
+  version "0.1.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@jpmorganchase/mosaic-types/-/mosaic-types-0.1.0-beta.17.tgz#cd106fcbc6335bd1eaec35189b7e9a442b6df818"
+  integrity sha512-J3HV8YHRcGBQgP8if7V+BuefRW+gUsrKnasLtrlkkTVcWOVW8czR41maWRy2yHCf8wmxvTeT68+p2hz/jwim8A==
 
 "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.2"
