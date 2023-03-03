@@ -1,0 +1,122 @@
+---
+title: Snapshot file mode
+layout: DetailTechnical
+lastModified: 1676998129000
+fullPath: /mosaic/docs/modes/snapshot-file.mdx
+route: /mosaic/docs/modes/snapshot-file
+breadcrumbs:
+  - label: Mosaic
+    path: /mosaic/index.mdx
+    id: /mosaic/index.mdx
+  - label: Getting started
+    path: /mosaic/docs/index.mdx
+    id: /mosaic/docs/index.mdx
+  - label: Modes of operation
+    path: /mosaic/docs/modes/index.mdx
+    id: /mosaic/docs/modes/index.mdx
+  - label: Snapshot file mode
+    path: /mosaic/docs/modes/snapshot-file.mdx
+    id: /mosaic/docs/modes/snapshot-file.mdx
+readingTime:
+  text: 1 min read
+  minutes: 0.32
+  time: 19200
+  words: 64
+tableOfContents:
+  - level: 1
+    id: snapshot-file-mode
+    text: Snapshot file mode
+  - level: 2
+    id: generating-a-snapshot
+    text: Generating a snapshot
+navigation:
+  prev:
+    title: Active mode
+    fullPath: /mosaic/docs/modes/active
+  next:
+    title: Snapshot AWS/S3 mode
+    fullPath: /mosaic/docs/modes/snapshot-s3
+sidebarData:
+  - id: /mosaic/index
+    name: Mosaic
+    data:
+      level: 1
+      link: /mosaic/index
+    childNodes:
+      - id: /mosaic/docs/index
+        name: Getting started
+        data:
+          level: 2
+          link: /mosaic/docs/index
+        childNodes:
+          - id: /mosaic/docs/publish-site-to-aws
+            name: Publish a site to AWS
+            data:
+              level: 2
+              link: /mosaic/docs/publish-site-to-aws
+            childNodes: []
+          - id: /mosaic/docs/publish-site-to-vercel
+            name: Publish a site to Vercel
+            data:
+              level: 2
+              link: /mosaic/docs/publish-site-to-vercel
+            childNodes: []
+          - id: /mosaic/docs/modes/index
+            name: Modes of operation
+            data:
+              level: 3
+              link: /mosaic/docs/modes/index
+            childNodes:
+              - id: /mosaic/docs/modes/active
+                name: Active mode
+                data:
+                  level: 3
+                  link: /mosaic/docs/modes/active
+                childNodes: []
+              - id: /mosaic/docs/modes/snapshot-file
+                name: Snapshot file mode
+                data:
+                  level: 3
+                  link: /mosaic/docs/modes/snapshot-file
+                childNodes: []
+              - id: /mosaic/docs/modes/snapshot-s3
+                name: Snapshot AWS/S3 mode
+                data:
+                  level: 3
+                  link: /mosaic/docs/modes/snapshot-s3
+                childNodes: []
+      - id: /mosaic/quick-start/index
+        name: Quick start guides
+        data:
+          level: 2
+          link: /mosaic/quick-start/index
+        childNodes:
+          - id: /mosaic/quick-start/publish-site-to-aws
+            name: Publish a site to AWS
+            data:
+              level: 2
+              link: /mosaic/quick-start/publish-site-to-aws
+            childNodes: []
+---
+
+# {meta.title}
+
+In `snapshot-file` mode a local immutable snapshot can be loaded by the site. Typically, the snapshot and the site are
+deployed together and upon startup the site can load the snapshot from the local file-system.
+
+To use `snapshot-file` mode
+
+```
+export MOSAIC_MODE="snapshot-file"
+export MOSAIC_SNAPSHOT_DIR="./snapshot/latest"
+```
+
+## Generating a snapshot
+
+To generate a snapshot, run
+
+```
+yarn gen:snapshot
+```
+
+Commit the snapshot to your Git repo and push the site+snapshot to your Git repo, within the same branch.

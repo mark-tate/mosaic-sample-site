@@ -6,9 +6,9 @@ import {
   Image,
   Link,
   Metadata,
-  SessionProvider,
   SidebarProvider
 } from '@jpmorganchase/mosaic-site-components';
+import { SessionProvider } from 'next-auth/react';
 import { ImageProvider, LinkProvider, ThemeProvider } from '@jpmorganchase/mosaic-components';
 import { LayoutProvider } from '@jpmorganchase/mosaic-layouts';
 import { useCreateStore, StoreProvider } from '@jpmorganchase/mosaic-store';
@@ -22,12 +22,12 @@ const components = mosaicComponents;
 const layoutComponents = mosaicLayouts;
 
 export default function MyApp({ Component, pageProps = {} }: AppProps<MyAppProps>) {
-  const { session, sharedConfig, source } = pageProps;
+  const { sharedConfig, source } = pageProps;
   const frontmatter = source?.frontmatter || {};
   const storeProps = { sharedConfig, ...frontmatter };
   const createStore = useCreateStore(storeProps);
   return (
-    <SessionProvider session={session}>
+    <SessionProvider>
       <StoreProvider value={createStore()}>
         <Metadata Component={Head} />
         <ThemeProvider>
