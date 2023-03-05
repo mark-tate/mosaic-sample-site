@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
   experimental: {
-    runtime: 'edge',
+    runtime: 'experimental-edge',
   },
   reactStrictMode: true,
   swcMinify: true,
