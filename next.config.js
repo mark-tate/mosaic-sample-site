@@ -1,9 +1,6 @@
 const webpack = require('webpack');
 
 module.exports = {
-  experimental: {
-    runtime: 'experimental-edge',
-  },
   reactStrictMode: true,
   swcMinify: true,
   transpilePackages: [
