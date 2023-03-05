@@ -10,8 +10,8 @@ import {
 import type { MyAppProps, MyMiddlewareProps } from '../types/mosaic';
 
 export const config = {
-  runtime: 'experimental-edge',
-}
+  runtime: 'experimental-edge'
+};
 
 /**
  * Extend props passed to MyApp by adding your own middleware ('withMyExampleMiddleware') functions.
