@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
+  runtime: 'edge',
   reactStrictMode: true,
   swcMinify: true,
   transpilePackages: [
@@ -14,6 +15,7 @@ module.exports = {
     '@jpmorganchase/mosaic-theme',
     '@jpmorganchase/mosaic-store'
   ],
+  //runtime: 'edge',
   rewrites() {
     return {
       // These rewrites are checked after headers/redirects
